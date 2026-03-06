@@ -58,12 +58,16 @@
         display: none;
     }
     .header-contents{
-        max-width: 65%;
+        max-width: 80%;
         bottom: 15%;
+        left:5vw;
     }
     .header-contents button{
         padding: 2vw 6vw;
         font-size: 14px;
+    }
+    .header-contents h2 {
+        font-size: 24px; /* Forces a readable font size on mobile */
     }
 }
 

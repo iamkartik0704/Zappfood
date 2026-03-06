@@ -111,4 +111,14 @@
     .navbar-menu{
         display: none;
     }
+    .navbar .logo {
+        width: 100px; /* Shrinks the logo */
+    }
+    .navbar-right {
+        gap: 15px; /* Brings the basket and sign-in button closer */
+    }
+    .navbar button {
+        padding: 5px 15px; /* Makes the sign-in button smaller */
+        font-size: 14px;
+    }
 }
