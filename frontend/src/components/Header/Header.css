@@ -1,9 +1,13 @@
 .header{
     height: 34vw;
+    min-height: 300px;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* cover prevents white gaps */
+    background-position: center;
     position: relative;
+    border-radius: 20px;
 }
 
 .header-contents{
@@ -38,4 +42,37 @@
     background-color: white;
     font-size: max(1vw , 13px);
     border-radius: 50px;
+    cursor: pointer;
+}
+
+/* tablets */
+@media (max-width:1050px){
+    
+    .header-contents{
+        max-width: 45%;
+    }
+}
+/* mobiles */
+@media (max-width:750px){
+    .header-contents p{
+        display: none;
+    }
+    .header-contents{
+        max-width: 65%;
+        bottom: 15%;
+    }
+    .header-contents button{
+        padding: 2vw 6vw;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:450px){
+
+    .header-contents{
+        max-width: 80%;
+        bottom: 20%;
+        gap: 15px;
+    }
+
 }

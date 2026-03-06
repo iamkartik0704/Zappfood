@@ -11,6 +11,7 @@
 
 body{
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a{
@@ -23,6 +24,12 @@ a{
   margin: auto;
 }
 
+@media (max-width: 750px) {
+    .app {
+        width: 100%;
+        padding: 0 5vw;
+    }
+}
 @keyframes fadeIn{
   0%{
     opacity: 0;
