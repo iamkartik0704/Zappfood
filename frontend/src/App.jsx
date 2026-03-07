@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/home'
 import Cart from './pages/cart/cart'
 import Placeorder from './pages/placeorder/placeorder'
-import Footer from './components/footer/Footer'
+import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 const App = () => {
   const [showLogin , setShowLogin] = useState(false);
